@@ -4,7 +4,7 @@
 
 Go through each example and explain what is happening:
 
-```
+```ruby
 %w(Fred Wilma Barney).map { |name| name.reverse }
 
 %w(Fred Wilma Barney).each { |name| puts name*3 }
@@ -42,7 +42,7 @@ end
 
 - Here is an array containing some wines:
 
-```
+```ruby
 wine_cellar = [
   {:label => "Rutherford Hill", :type => "Chardonnay", :color => "white"},
   {:label => "Nina Veneto", :type => "Pinot Grigio", :color => "white"},
@@ -72,8 +72,7 @@ Write code that:
 
 ### #3 - Students
 
-```
-
+```ruby
 students = ["Adam Barrett", "Jacob Cain", "Mikael Davis", "Salil Doshi", "Jonathan Eva", "Elaine Fang", "Parker Hart", "Richard Hessler", "Mary Hipp", "Inhak Kim", "Yi-Hsiao Liu", "Randy Latz", "Alexi Phillipson", "Matt Rundo", "Gabe Snyder", "Stephen Stanwood", "Joella Straley", "Brett Wallace", "Thomas Weaver"]
 ```
 
@@ -88,7 +87,7 @@ students = ["Adam Barrett", "Jacob Cain", "Mikael Davis", "Salil Doshi", "Jonath
 
 ### #4 - Starting a band
 
-```
+```ruby
 people = [
   {:name => "Peter", :money => 5, :plays_instrument => true},
   {:name => "Greg", :money => 10, :plays_instrument => false},

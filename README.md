@@ -13,7 +13,7 @@ Go through each example and explain what is happening:
 
 %w(Fred Wilma Barney).each_with_index { |name, index| puts "#{name} is #{index.odd? ? "boys'" : "girls'"} name"}
       
-(1..10).each_slice(3) { |a| puts a }    
+(1..10).each_slice(3) { |a| p a }    
   
 (1..3).cycle(3) { |i| puts i }    
   

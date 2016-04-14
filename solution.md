@@ -22,12 +22,15 @@ wine_cellar = [
 Write code that:
   
   - Adds a wine of your choice to the cellar
+
 `wine_cellar.push({:label => "Kroger", :type => "Cab", :color => "red"})`
 
   - Returns a random wine from the cellar
+
 `wine_cellar.sample`
 
   - Returns an array of just the white wines
+
 `wine_cellar.select { |wine| wine[:color] == "white"}`
 
   - Returns an array listing the unique types of wine
